@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(84, 59, 226);
+}
+
+#title {
+    font-size: 45px;
+}
+
+#description {
+    font-size: 20px;
+}
+
+.form {
+    display: block;
+    width: 100%;
+    height: 30px;    
+    padding: 3px;
+    border: 1px;
+    border-radius: 3px;
+}
+
+
+#survey-form {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 30px 20px 0 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+radio,
+.check {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    margin: 0 3px 0 0;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+
+#title, #description {
+    text-align: center;
+}
+
+textarea {
+    height: 100px;
+    padding-top: 10px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background:  rgb(1, 253, 35);
+    border-radius: 2px;
+    font-size: 20px;
+  }
+
